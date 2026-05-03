@@ -1,0 +1,30 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Local virtual environment
+.venv/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.uv-cache
+
+# Coverage outputs
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter-style checkpoints
+.ipynb_checkpoints/
+
+# Streamlit local state
+.streamlit/secrets.toml
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

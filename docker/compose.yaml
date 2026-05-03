@@ -1,0 +1,15 @@
+name: local-llm-compare
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: local-llm-compare-app:latest
+    environment:
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+    ports:
+      - "${APP_PORT:-8501}:8501"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

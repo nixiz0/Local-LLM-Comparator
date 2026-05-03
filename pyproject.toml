@@ -1,0 +1,8 @@
+[project]
+name = "test-small-llm-opti"
+version = "0.1.0"
+requires-python = "==3.13.*"
+dependencies = [
+    "pandas>=2.2.0",
+    "streamlit>=1.40.0",
+]
