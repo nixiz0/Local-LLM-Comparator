@@ -1,4 +1,4 @@
-# 🧪 Local LLM Compare
+# 🧪 Local LLM Comparator
 
 Compare local Ollama models in a simple Streamlit app.
 
