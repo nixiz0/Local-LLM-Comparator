@@ -195,3 +195,13 @@ choose models, run tests, read outputs, inspect metrics, export the report.
 ## Author
 
 - [@nixiz0](https://github.com/nixiz0)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, including for commercial use, provided that the original copyright notice and license are included.
+
+Copyright (c) 2026 Hey Initium
